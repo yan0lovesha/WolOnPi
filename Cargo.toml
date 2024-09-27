@@ -1,0 +1,10 @@
+[package]
+name = "WolOnPi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+warp = "0.3"
+tokio = { version = "1", features = ["full"] }
+regex = "1"
+clap = { version = "4", features = ["derive"] }
